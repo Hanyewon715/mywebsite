@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ye-Won Han에 가까워지는 법</title>
+  <style>
+    body {
+      font-family: "Apple SD Gothic Neo", Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #e6e6fa;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #000000;
+      margin: 0 0 10px;
+    }
+
+    p {
+      color: #000000;
+      margin-bottom: 10px;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Ye-Won Han에 가까워지는 법</h1>
+    <p>맛있는 음식을 선물하세요!</p>
+    <p>Ye-Won Han의 취향에 맞춰 몇 가지 음식을 소개합니다.</p>
+    <ul>
+      <li>치킨</li>
+      <li>피자</li>
+      <li>마라샹궈</li>
+      <li>곱창</li>
+      <li>빙수</li>
+    </ul>
+    <div class="gallery">
+      <img src="food1.jpg" alt="음식 1">
+      <img src="food2.jpg" alt="음식 2">
+    </div>
+  </div>
+</body>
+</html>
